@@ -9,5 +9,5 @@ module.exports = () => {
     .then(() => {
       console.log("MongoDB Successfully Connected…");
     })
-    .catch((err) => console.log("could not connect to database", err));
+    .catch((err) => console.log("could not connect to MongoDB", err));
 };
